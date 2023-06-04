@@ -1,0 +1,820 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C219B6F02A28BE7B0093E7EE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C219B6F22A28BE7B0093E7EE /* Localizable.strings */; };
+		C219B6F52A28BE990093E7EE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C219B6F72A28BE990093E7EE /* Localizable.strings */; };
+		C254C6372A27E0DC000E9608 /* ToolsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C254C6362A27E0DC000E9608 /* ToolsViewModel.swift */; };
+		C26E1B752A22847C00DA865A /* RouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26E1B742A22847C00DA865A /* RouteView.swift */; };
+		C26E1B782A23132E00DA865A /* ZenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26E1B772A23132E00DA865A /* ZenView.swift */; };
+		C26E1B7A2A2313F400DA865A /* HUDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26E1B792A2313F400DA865A /* HUDView.swift */; };
+		C2B5219E2A2342A10065885B /* RoutesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B5219D2A2342A10065885B /* RoutesModel.swift */; };
+		C2B521A02A2342F90065885B /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B5219F2A2342F90065885B /* MenuModel.swift */; };
+		C2B521A22A2344260065885B /* SpeedometerManagerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B521A12A2344260065885B /* SpeedometerManagerViewModel.swift */; };
+		C2B521A42A23583F0065885B /* UserSettingsManagerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B521A32A23583F0065885B /* UserSettingsManagerViewModel.swift */; };
+		C2D91BD72A23C74200B3A0EA /* RouteManagerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D91BD62A23C74200B3A0EA /* RouteManagerViewModel.swift */; };
+		C2D91BDB2A23D95000B3A0EA /* RouteLoggerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D91BDA2A23D95000B3A0EA /* RouteLoggerViewModel.swift */; };
+		C2D91BDF2A252C8200B3A0EA /* RouteEditingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D91BDE2A252C8200B3A0EA /* RouteEditingView.swift */; };
+		C2DF80F42A1FD445001188E9 /* SpeedStoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DF80F32A1FD445001188E9 /* SpeedStoryApp.swift */; };
+		C2DF80F62A1FD445001188E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DF80F52A1FD445001188E9 /* ContentView.swift */; };
+		C2DF80F82A1FD446001188E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2DF80F72A1FD446001188E9 /* Assets.xcassets */; };
+		C2DF80FB2A1FD446001188E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2DF80FA2A1FD446001188E9 /* Preview Assets.xcassets */; };
+		C2DF81002A1FD446001188E9 /* speedstory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C2DF80FE2A1FD446001188E9 /* speedstory.xcdatamodeld */; };
+		C2DF810B2A1FD446001188E9 /* speedstoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DF810A2A1FD446001188E9 /* speedstoryTests.swift */; };
+		C2DF81152A1FD446001188E9 /* speedstoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DF81142A1FD446001188E9 /* speedstoryUITests.swift */; };
+		C2DF81172A1FD446001188E9 /* speedstoryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DF81162A1FD446001188E9 /* speedstoryUITestsLaunchTests.swift */; };
+		C2F85A102A2CC71B009246EA /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = C2F85A0F2A2CC71B009246EA /* GoogleMobileAds */; };
+		C2F85A142A2CEE60009246EA /* TEST.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F85A132A2CEE60009246EA /* TEST.swift */; };
+		C2FD61602A210BAF0053B2B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2FD615F2A210BAF0053B2B8 /* LaunchScreen.storyboard */; };
+		C2FD61622A211D010053B2B8 /* SpeedometerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FD61612A211D010053B2B8 /* SpeedometerView.swift */; };
+		C2FD61642A211D280053B2B8 /* RoutesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FD61632A211D280053B2B8 /* RoutesView.swift */; };
+		C2FD61662A211D3E0053B2B8 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FD61652A211D3E0053B2B8 /* MenuView.swift */; };
+		C2FD61692A21FECE0053B2B8 /* LanguageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FD61682A21FECE0053B2B8 /* LanguageView.swift */; };
+		C2FD616B2A21FED90053B2B8 /* AppearanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FD616A2A21FED90053B2B8 /* AppearanceView.swift */; };
+		C2FD616D2A21FEE30053B2B8 /* DataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FD616C2A21FEE30053B2B8 /* DataView.swift */; };
+		C2FD616F2A21FEEC0053B2B8 /* UnitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FD616E2A21FEEC0053B2B8 /* UnitsView.swift */; };
+		C2FD61712A21FF5F0053B2B8 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FD61702A21FF5F0053B2B8 /* AboutView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2DF81072A1FD446001188E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2DF80E82A1FD445001188E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2DF80EF2A1FD445001188E9;
+			remoteInfo = speedstory;
+		};
+		C2DF81112A1FD446001188E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2DF80E82A1FD445001188E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2DF80EF2A1FD445001188E9;
+			remoteInfo = speedstory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C219B6F12A28BE7B0093E7EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C219B6F62A28BE990093E7EE /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C254C6362A27E0DC000E9608 /* ToolsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsViewModel.swift; sourceTree = "<group>"; };
+		C26E1B742A22847C00DA865A /* RouteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteView.swift; sourceTree = "<group>"; };
+		C26E1B772A23132E00DA865A /* ZenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenView.swift; sourceTree = "<group>"; };
+		C26E1B792A2313F400DA865A /* HUDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDView.swift; sourceTree = "<group>"; };
+		C2B5219D2A2342A10065885B /* RoutesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutesModel.swift; sourceTree = "<group>"; };
+		C2B5219F2A2342F90065885B /* MenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		C2B521A12A2344260065885B /* SpeedometerManagerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedometerManagerViewModel.swift; sourceTree = "<group>"; };
+		C2B521A32A23583F0065885B /* UserSettingsManagerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettingsManagerViewModel.swift; sourceTree = "<group>"; };
+		C2D91BD62A23C74200B3A0EA /* RouteManagerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteManagerViewModel.swift; sourceTree = "<group>"; };
+		C2D91BDA2A23D95000B3A0EA /* RouteLoggerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteLoggerViewModel.swift; sourceTree = "<group>"; };
+		C2D91BDE2A252C8200B3A0EA /* RouteEditingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteEditingView.swift; sourceTree = "<group>"; };
+		C2DF80F02A1FD445001188E9 /* speedstory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = speedstory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2DF80F32A1FD445001188E9 /* SpeedStoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedStoryApp.swift; sourceTree = "<group>"; };
+		C2DF80F52A1FD445001188E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C2DF80F72A1FD446001188E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2DF80FA2A1FD446001188E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C2DF80FF2A1FD446001188E9 /* speedstory.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = speedstory.xcdatamodel; sourceTree = "<group>"; };
+		C2DF81012A1FD446001188E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2DF81062A1FD446001188E9 /* speedstoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = speedstoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2DF810A2A1FD446001188E9 /* speedstoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = speedstoryTests.swift; sourceTree = "<group>"; };
+		C2DF81102A1FD446001188E9 /* speedstoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = speedstoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2DF81142A1FD446001188E9 /* speedstoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = speedstoryUITests.swift; sourceTree = "<group>"; };
+		C2DF81162A1FD446001188E9 /* speedstoryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = speedstoryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C2F85A132A2CEE60009246EA /* TEST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TEST.swift; sourceTree = "<group>"; };
+		C2FD615F2A210BAF0053B2B8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2FD61612A211D010053B2B8 /* SpeedometerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedometerView.swift; sourceTree = "<group>"; };
+		C2FD61632A211D280053B2B8 /* RoutesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutesView.swift; sourceTree = "<group>"; };
+		C2FD61652A211D3E0053B2B8 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		C2FD61682A21FECE0053B2B8 /* LanguageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageView.swift; sourceTree = "<group>"; };
+		C2FD616A2A21FED90053B2B8 /* AppearanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceView.swift; sourceTree = "<group>"; };
+		C2FD616C2A21FEE30053B2B8 /* DataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataView.swift; sourceTree = "<group>"; };
+		C2FD616E2A21FEEC0053B2B8 /* UnitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitsView.swift; sourceTree = "<group>"; };
+		C2FD61702A21FF5F0053B2B8 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2DF80ED2A1FD445001188E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F85A102A2CC71B009246EA /* GoogleMobileAds in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2DF81032A1FD446001188E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2DF810D2A1FD446001188E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C26E1B732A22846C00DA865A /* Routes */ = {
+			isa = PBXGroup;
+			children = (
+				C26E1B742A22847C00DA865A /* RouteView.swift */,
+				C2D91BDE2A252C8200B3A0EA /* RouteEditingView.swift */,
+			);
+			path = Routes;
+			sourceTree = "<group>";
+		};
+		C26E1B762A23132100DA865A /* Speedometer */ = {
+			isa = PBXGroup;
+			children = (
+				C26E1B772A23132E00DA865A /* ZenView.swift */,
+				C26E1B792A2313F400DA865A /* HUDView.swift */,
+			);
+			path = Speedometer;
+			sourceTree = "<group>";
+		};
+		C2DF80E72A1FD445001188E9 = {
+			isa = PBXGroup;
+			children = (
+				C2DF80F22A1FD445001188E9 /* speedstory */,
+				C2DF81092A1FD446001188E9 /* speedstoryTests */,
+				C2DF81132A1FD446001188E9 /* speedstoryUITests */,
+				C2DF80F12A1FD445001188E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2DF80F12A1FD445001188E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2DF80F02A1FD445001188E9 /* speedstory.app */,
+				C2DF81062A1FD446001188E9 /* speedstoryTests.xctest */,
+				C2DF81102A1FD446001188E9 /* speedstoryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2DF80F22A1FD445001188E9 /* speedstory */ = {
+			isa = PBXGroup;
+			children = (
+				C2DF81252A1FD4BA001188E9 /* ViewModels */,
+				C2DF81242A1FD4B2001188E9 /* Models */,
+				C2DF81232A1FD4A4001188E9 /* Views */,
+				C2DF80F32A1FD445001188E9 /* SpeedStoryApp.swift */,
+				C2DF80F72A1FD446001188E9 /* Assets.xcassets */,
+				C2DF81012A1FD446001188E9 /* Info.plist */,
+				C2DF80F92A1FD446001188E9 /* Preview Content */,
+				C2FD615F2A210BAF0053B2B8 /* LaunchScreen.storyboard */,
+				C219B6F22A28BE7B0093E7EE /* Localizable.strings */,
+				C219B6F72A28BE990093E7EE /* Localizable.strings */,
+			);
+			path = speedstory;
+			sourceTree = "<group>";
+		};
+		C2DF80F92A1FD446001188E9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C2DF80FA2A1FD446001188E9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C2DF81092A1FD446001188E9 /* speedstoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2DF810A2A1FD446001188E9 /* speedstoryTests.swift */,
+			);
+			path = speedstoryTests;
+			sourceTree = "<group>";
+		};
+		C2DF81132A1FD446001188E9 /* speedstoryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2DF81142A1FD446001188E9 /* speedstoryUITests.swift */,
+				C2DF81162A1FD446001188E9 /* speedstoryUITestsLaunchTests.swift */,
+			);
+			path = speedstoryUITests;
+			sourceTree = "<group>";
+		};
+		C2DF81232A1FD4A4001188E9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C26E1B762A23132100DA865A /* Speedometer */,
+				C26E1B732A22846C00DA865A /* Routes */,
+				C2FD61672A21FEBD0053B2B8 /* Menu */,
+				C2DF80F52A1FD445001188E9 /* ContentView.swift */,
+				C2FD61612A211D010053B2B8 /* SpeedometerView.swift */,
+				C2FD61632A211D280053B2B8 /* RoutesView.swift */,
+				C2FD61652A211D3E0053B2B8 /* MenuView.swift */,
+				C2F85A132A2CEE60009246EA /* TEST.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C2DF81242A1FD4B2001188E9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C2DF80FE2A1FD446001188E9 /* speedstory.xcdatamodeld */,
+				C2B5219D2A2342A10065885B /* RoutesModel.swift */,
+				C2B5219F2A2342F90065885B /* MenuModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C2DF81252A1FD4BA001188E9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C2B521A12A2344260065885B /* SpeedometerManagerViewModel.swift */,
+				C2B521A32A23583F0065885B /* UserSettingsManagerViewModel.swift */,
+				C2D91BD62A23C74200B3A0EA /* RouteManagerViewModel.swift */,
+				C2D91BDA2A23D95000B3A0EA /* RouteLoggerViewModel.swift */,
+				C254C6362A27E0DC000E9608 /* ToolsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C2FD61672A21FEBD0053B2B8 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				C2FD61682A21FECE0053B2B8 /* LanguageView.swift */,
+				C2FD616A2A21FED90053B2B8 /* AppearanceView.swift */,
+				C2FD616C2A21FEE30053B2B8 /* DataView.swift */,
+				C2FD616E2A21FEEC0053B2B8 /* UnitsView.swift */,
+				C2FD61702A21FF5F0053B2B8 /* AboutView.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2DF80EF2A1FD445001188E9 /* speedstory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2DF811A2A1FD446001188E9 /* Build configuration list for PBXNativeTarget "speedstory" */;
+			buildPhases = (
+				C2DF80EC2A1FD445001188E9 /* Sources */,
+				C2DF80ED2A1FD445001188E9 /* Frameworks */,
+				C2DF80EE2A1FD445001188E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = speedstory;
+			packageProductDependencies = (
+				C2F85A0F2A2CC71B009246EA /* GoogleMobileAds */,
+			);
+			productName = speedstory;
+			productReference = C2DF80F02A1FD445001188E9 /* speedstory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2DF81052A1FD446001188E9 /* speedstoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2DF811D2A1FD446001188E9 /* Build configuration list for PBXNativeTarget "speedstoryTests" */;
+			buildPhases = (
+				C2DF81022A1FD446001188E9 /* Sources */,
+				C2DF81032A1FD446001188E9 /* Frameworks */,
+				C2DF81042A1FD446001188E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2DF81082A1FD446001188E9 /* PBXTargetDependency */,
+			);
+			name = speedstoryTests;
+			productName = speedstoryTests;
+			productReference = C2DF81062A1FD446001188E9 /* speedstoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2DF810F2A1FD446001188E9 /* speedstoryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2DF81202A1FD446001188E9 /* Build configuration list for PBXNativeTarget "speedstoryUITests" */;
+			buildPhases = (
+				C2DF810C2A1FD446001188E9 /* Sources */,
+				C2DF810D2A1FD446001188E9 /* Frameworks */,
+				C2DF810E2A1FD446001188E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2DF81122A1FD446001188E9 /* PBXTargetDependency */,
+			);
+			name = speedstoryUITests;
+			productName = speedstoryUITests;
+			productReference = C2DF81102A1FD446001188E9 /* speedstoryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2DF80E82A1FD445001188E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C2DF80EF2A1FD445001188E9 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					C2DF81052A1FD446001188E9 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = C2DF80EF2A1FD445001188E9;
+					};
+					C2DF810F2A1FD446001188E9 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = C2DF80EF2A1FD445001188E9;
+					};
+				};
+			};
+			buildConfigurationList = C2DF80EB2A1FD445001188E9 /* Build configuration list for PBXProject "speedstory" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = C2DF80E72A1FD445001188E9;
+			packageReferences = (
+				C2F85A0E2A2CC71B009246EA /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+			);
+			productRefGroup = C2DF80F12A1FD445001188E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2DF80EF2A1FD445001188E9 /* speedstory */,
+				C2DF81052A1FD446001188E9 /* speedstoryTests */,
+				C2DF810F2A1FD446001188E9 /* speedstoryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2DF80EE2A1FD445001188E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C219B6F52A28BE990093E7EE /* Localizable.strings in Resources */,
+				C2FD61602A210BAF0053B2B8 /* LaunchScreen.storyboard in Resources */,
+				C219B6F02A28BE7B0093E7EE /* Localizable.strings in Resources */,
+				C2DF80FB2A1FD446001188E9 /* Preview Assets.xcassets in Resources */,
+				C2DF80F82A1FD446001188E9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2DF81042A1FD446001188E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2DF810E2A1FD446001188E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2DF80EC2A1FD445001188E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2FD61662A211D3E0053B2B8 /* MenuView.swift in Sources */,
+				C26E1B782A23132E00DA865A /* ZenView.swift in Sources */,
+				C26E1B7A2A2313F400DA865A /* HUDView.swift in Sources */,
+				C2FD616D2A21FEE30053B2B8 /* DataView.swift in Sources */,
+				C2B521A02A2342F90065885B /* MenuModel.swift in Sources */,
+				C2F85A142A2CEE60009246EA /* TEST.swift in Sources */,
+				C2B521A42A23583F0065885B /* UserSettingsManagerViewModel.swift in Sources */,
+				C2DF81002A1FD446001188E9 /* speedstory.xcdatamodeld in Sources */,
+				C2FD61712A21FF5F0053B2B8 /* AboutView.swift in Sources */,
+				C2B521A22A2344260065885B /* SpeedometerManagerViewModel.swift in Sources */,
+				C2D91BD72A23C74200B3A0EA /* RouteManagerViewModel.swift in Sources */,
+				C2DF80F62A1FD445001188E9 /* ContentView.swift in Sources */,
+				C2D91BDB2A23D95000B3A0EA /* RouteLoggerViewModel.swift in Sources */,
+				C254C6372A27E0DC000E9608 /* ToolsViewModel.swift in Sources */,
+				C26E1B752A22847C00DA865A /* RouteView.swift in Sources */,
+				C2FD616B2A21FED90053B2B8 /* AppearanceView.swift in Sources */,
+				C2FD61692A21FECE0053B2B8 /* LanguageView.swift in Sources */,
+				C2FD616F2A21FEEC0053B2B8 /* UnitsView.swift in Sources */,
+				C2FD61622A211D010053B2B8 /* SpeedometerView.swift in Sources */,
+				C2D91BDF2A252C8200B3A0EA /* RouteEditingView.swift in Sources */,
+				C2FD61642A211D280053B2B8 /* RoutesView.swift in Sources */,
+				C2DF80F42A1FD445001188E9 /* SpeedStoryApp.swift in Sources */,
+				C2B5219E2A2342A10065885B /* RoutesModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2DF81022A1FD446001188E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2DF810B2A1FD446001188E9 /* speedstoryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2DF810C2A1FD446001188E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2DF81172A1FD446001188E9 /* speedstoryUITestsLaunchTests.swift in Sources */,
+				C2DF81152A1FD446001188E9 /* speedstoryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2DF81082A1FD446001188E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2DF80EF2A1FD445001188E9 /* speedstory */;
+			targetProxy = C2DF81072A1FD446001188E9 /* PBXContainerItemProxy */;
+		};
+		C2DF81122A1FD446001188E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2DF80EF2A1FD445001188E9 /* speedstory */;
+			targetProxy = C2DF81112A1FD446001188E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C219B6F22A28BE7B0093E7EE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C219B6F12A28BE7B0093E7EE /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		C219B6F72A28BE990093E7EE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C219B6F62A28BE990093E7EE /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2DF81182A1FD446001188E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2DF81192A1FD446001188E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2DF811B2A1FD446001188E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconDark;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"speedstory/Preview Content\"";
+				DEVELOPMENT_TEAM = BKVX2LKXJH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = speedstory/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SpeedStory;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location service is needed for speed measuring!";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pieceowater.speedstory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2DF811C2A1FD446001188E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconDark;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"speedstory/Preview Content\"";
+				DEVELOPMENT_TEAM = BKVX2LKXJH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = speedstory/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SpeedStory;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location service is needed for speed measuring!";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pieceowater.speedstory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C2DF811E2A1FD446001188E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BKVX2LKXJH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pieceowater.speedstoryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/speedstory.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/speedstory";
+			};
+			name = Debug;
+		};
+		C2DF811F2A1FD446001188E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BKVX2LKXJH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pieceowater.speedstoryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/speedstory.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/speedstory";
+			};
+			name = Release;
+		};
+		C2DF81212A1FD446001188E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BKVX2LKXJH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pieceowater.speedstoryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = speedstory;
+			};
+			name = Debug;
+		};
+		C2DF81222A1FD446001188E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BKVX2LKXJH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pieceowater.speedstoryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = speedstory;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2DF80EB2A1FD445001188E9 /* Build configuration list for PBXProject "speedstory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2DF81182A1FD446001188E9 /* Debug */,
+				C2DF81192A1FD446001188E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2DF811A2A1FD446001188E9 /* Build configuration list for PBXNativeTarget "speedstory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2DF811B2A1FD446001188E9 /* Debug */,
+				C2DF811C2A1FD446001188E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2DF811D2A1FD446001188E9 /* Build configuration list for PBXNativeTarget "speedstoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2DF811E2A1FD446001188E9 /* Debug */,
+				C2DF811F2A1FD446001188E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2DF81202A1FD446001188E9 /* Build configuration list for PBXNativeTarget "speedstoryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2DF81212A1FD446001188E9 /* Debug */,
+				C2DF81222A1FD446001188E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C2F85A0E2A2CC71B009246EA /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C2F85A0F2A2CC71B009246EA /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C2F85A0E2A2CC71B009246EA /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		C2DF80FE2A1FD446001188E9 /* speedstory.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C2DF80FF2A1FD446001188E9 /* speedstory.xcdatamodel */,
+			);
+			currentVersion = C2DF80FF2A1FD446001188E9 /* speedstory.xcdatamodel */;
+			path = speedstory.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C2DF80E82A1FD445001188E9 /* Project object */;
+}

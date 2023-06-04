@@ -1,0 +1,78 @@
+/* 
+  Localizable.strings
+  speedstory
+
+  Created by yury mid on 01.06.2023.
+  String(format: NSLocalizedString("welcome_message", comment: ""))
+*/
+
+"routes_tab" = "Routes";
+"speedometer_tab" = "Speedometer";
+"menu_tab" = "Menu";
+
+"tab_mode" = "Mode";
+"hud_tab" = "HUD";
+"data_tab" = "Data";
+"zen_tab" = "Zen";
+
+"speed_kmh" = "km/h";
+"speed_mph" = "mph";
+"speed_m" = "m";
+
+"unit_km" = "km";
+"unit_miles" = "miles";
+
+"card_max" = "Max";
+"card_avg" = "Avg";
+"card_distance" = "Distance";
+"card_time" = "Time";
+
+"btn_start_trip" = "Start Trip!";
+"btn_resume_trip" = "Resume";
+"btn_pause_trip" = "Pause";
+"btn_end_trip" = "End Trip!";
+
+"alert_confirm" = "Confirm";
+"alert_sure_msg" = "Are you sure?";
+"alert_end_btn" = "End";
+"alert_rm_btn" = "Remove";
+"alert_apprestart" = "App Restart";
+"alert_apprestart_msg" = "Please manually relaunch the app to see changes.";
+
+"title_routes_screen" = "Routes";
+"txt_route" = "Route";
+"txt_sort" = "Sort";
+"txt_created" = "Created";
+"txt_rename" = "Rename";
+"txt_remove" = "Remove";
+"txt_edit" = "Edit";
+"txt_close" = "Close";
+
+"title_menu_screen" = "Menu";
+"menu_heading_settings" = "Preferences";
+"menu_settings_data" = "Data";
+"menu_settings_units" = "Units";
+"menu_settings_language" = "Language";
+"menu_settings_appearance" = "Appearance";
+
+"menu_heading_actions" = "Actions";
+"menu_actions_pro_mode" = "Upgrade to Pro (Ad-free)";
+"menu_actions_rate" = "Rate us!";
+"menu_actions_about" = "About";
+
+"appearance_theme" = "Theme";
+"appearance_lightmode" = "Light Mode";
+"appearance_darkmode" = "Dark Mode";
+"appearance_accentcolor" = "Accent color";
+"appearance_appicon" = "App Icon";
+
+"data_stats" = "Stats";
+"data_dangerzone" = "Danger zone";
+"data_rmall" = "Remove all routes";
+
+"about_developed" = "Developed by";
+"about_appdescription" = "
+    Introducing our Speedometer App with Route History Functionality!
+
+    Stay informed about your speed in real-time and relive your past journeys with ease. Our app tracks your speed and stores the routes you've traveled, providing valuable insights and analytics. Plan future trips efficiently, track mileage, and enjoy a customizable interface!
+";

@@ -1,0 +1,78 @@
+/* 
+  Localizable.strings
+  speedstory
+
+  Created by yury mid on 01.06.2023.
+  String(format: NSLocalizedString("welcome_message", comment: ""))
+*/
+
+"routes_tab" = "Записи";
+"speedometer_tab" = "Скорость";
+"menu_tab" = "Меню";
+
+"tab_mode" = "Режим";
+"hud_tab" = "HUD";
+"data_tab" = "Данные";
+"zen_tab" = "Дзен";
+
+"speed_kmh" = "км/ч";
+"speed_mph" = "мл/ч";
+"speed_m" = "м";
+
+"unit_km" = "км";
+"unit_miles" = "мл";
+
+"card_max" = "Макс.";
+"card_avg" = "Сред.";
+"card_distance" = "Расстоян.";
+"card_time" = "Время";
+
+"btn_start_trip" = "В путь!";
+"btn_resume_trip" = "Продолжить";
+"btn_pause_trip" = "Пауза";
+"btn_end_trip" = "Завершить!";
+
+"alert_confirm" = "Подтверждение";
+"alert_sure_msg" = "Вы уверены?";
+"alert_end_btn" = "Завершить";
+"alert_rm_btn" = "Удалить";
+"alert_apprestart" = "Перезагрузите приложение";
+"alert_apprestart_msg" = "Чтобы применить смену языка, перезагрузите приложение.";
+
+"title_routes_screen" = "Записи";
+"txt_route" = "Запись";
+"txt_sort" = "Сортировать";
+"txt_created" = "Создано";
+"txt_rename" = "Переименовать";
+"txt_remove" = "Удалить";
+"txt_edit" = "Изменить";
+"txt_close" = "Закрыть";
+
+"title_menu_screen" = "Меню";
+"menu_heading_settings" = "Настройки";
+"menu_settings_data" = "Данные";
+"menu_settings_units" = "Ед. измерения";
+"menu_settings_language" = "Язык";
+"menu_settings_appearance" = "Оформление";
+
+"menu_heading_actions" = "Действия";
+"menu_actions_pro_mode" = "Получить Pro-версию (Без рекламы)";
+"menu_actions_rate" = "Оценить приложение!";
+"menu_actions_about" = "О приложении";
+
+"appearance_theme" = "Тема";
+"appearance_lightmode" = "Светлая";
+"appearance_darkmode" = "Темная";
+"appearance_accentcolor" = "Акцент";
+"appearance_appicon" = "Иконка";
+
+"data_stats" = "Статистика";
+"data_dangerzone" = "Действия";
+"data_rmall" = "Удалить все записи";
+
+"about_developed" = "Разработано";
+"about_appdescription" = "
+    Представляем Спидометр с историей маршрутов!
+
+    Следите за скоростью в режиме реального времени. Наше приложение записывает скорость и сохраняет пройденные вами маршруты, предоставляя ценную информацию и аналитику. Планируйте будущие поездки и наслаждайтесь!
+";

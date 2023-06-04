@@ -12,12 +12,6 @@ struct ContentView: View {
     @EnvironmentObject var routeLogger: RouteLogger
     @ObservedObject var userSettings: UserSettingsManager
 
-    /**
-     TODO
-     Ad and Pro version
-     ca-app-pub-9943198553187181~9449488061 - app id
-     ca-app-pub-9943198553187181/1986803150 - ad id
-     */
     
     @State private var selectedTab: Tab = .speedometer
 
